@@ -5,6 +5,7 @@ Controls: Use IJKL to control the snake.
 
 Features:
  - 32x32 toroidal grid
+ - Buffers inputs
  - Ignores key presses opposite to the direction of the snake's head
  - Kill screen (shows your final score briefly, then restarts)
 
