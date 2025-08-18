@@ -1,5 +1,5 @@
 # Sna1Ke
-A Snake game written in only 1000 bytes of Python code, using the [Pygame](https://pygame.org) library.
+A Snake game written in under 1000 bytes of Python code, using the [Pygame](https://pygame.org) library.
 
 Controls: Use IJKL to control the snake.
 
@@ -8,4 +8,4 @@ Features:
  - Ignores key presses opposite to the direction of the snake's head
  - Kill screen (shows your final score briefly, then restarts)
 
-A word of caution: this was written for pygame 1.9.4.post1, and only confirmed to work in that version.
+This *should* work in all Pygame versions. Let me know if you encounter any problems.
