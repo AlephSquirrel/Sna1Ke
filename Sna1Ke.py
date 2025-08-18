@@ -8,12 +8,12 @@ F=P.font.SysFont(0,24)
 U=P.display.update
 P.display.set_caption('Sna1Ke')
 while 1:
- x=y=d=2;s=0;l=[];f=R(32);g=R(32)
+ x=y=d=3;s=0;l=[];f=R(32);g=R(32)
  while C.tick(15):
   for e in P.event.get():
    e.type==12>exit()
-   if e.type==2<272<e.key<277:k=e.key%7;d=k^(k==d^1)
-  x=x+d%3+d%~d&31;y=y+2-5//~d%4&31
+   if e.type==2<104<e.key<109:k=e.key%5;d=k^2*(k==d^2)
+  x=x+d*d//2-d&31;y=y+~(7%~d)&31
   if(x-f|y-g)==0:s+=1;f=R(32);g=R(32)
   else:l=l[len(l)>2:]
   if(x,y)in l:break
