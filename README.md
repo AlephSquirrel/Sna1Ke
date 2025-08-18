@@ -6,4 +6,4 @@ Features:
  - Ignores arrow key presses opposite to the direction of the snake's head
  - Kill screen (shows your final score briefly, then restarts)
 
-A word of caution: this was written for pygame 1.9.4.post1, and only tested in that version. It definitely doesn't work in pygame 2.
+A word of caution: this was written for pygame 1.9.4.post1, and only confirmed to work in that version. It has been confirmed *not* to work in pygame 2.
