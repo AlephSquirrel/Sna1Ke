@@ -1,6 +1,8 @@
 # Sna1Ke
 A Snake game written in 1000 bytes of Python code, using the [Pygame](https://pygame.org) library.
 
+<img width="644" height="672" alt="2025-08-31-213049_644x672_scrot" src="https://github.com/user-attachments/assets/d0b0b00d-45fe-4b97-83d6-632ada1cfe91" />
+
 Controls: Use IJKL to control the snake.
 
 Features:
